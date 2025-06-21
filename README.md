@@ -21,13 +21,21 @@ The readFile() method allows the user to read and display the contents of a spec
 The appendToFile() method enables the user to modify an existing file by appending new text to it. It first checks whether the specified file exists. If not, it displays an error message and returns. If the file exists, it uses FileWriter in append mode (true flag) along with a BufferedWriter to add the new content. A newline is inserted before appending to ensure the content remains properly formatted. Once writing is complete, the buffer is closed, and a success message is displayed. Exception 
 handling for IOException is also included 
 here.
-Overall, this program serves as a useful tool for beginners to understand how file 
+Overall, this program serves as a useful 
+tool for beginners to understand how file 
 handling works in Java. It demonstrates 
 basic concepts like user input handling, 
 file operations, and exception handling. 
 While functional, the code can be further improved with better validation, modular design, and use of try-with-resources to manage resource cleanup automatically.
 
 *OUTPUT* :
+
+![Image](https://github.com/user-attachments/assets/2700c6b8-30dd-4f45-914d-940e94f03913)
+
+
+![Image](https://github.com/user-attachments/assets/9669554e-8f77-4889-861c-bac40863e8c8)
+
+
 
 
 
